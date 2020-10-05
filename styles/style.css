@@ -96,6 +96,7 @@
 }
 
 .two-columns__main-text {
+  display: flex;
   width: 80%;
   min-width: 784px;
   /*вторая колонка*/
@@ -181,8 +182,10 @@
 }
 
 .table__cell {
-  margin-top: 60px;
   width: 250px;
+  list-style: none;
+  padding:0;
+  margin:60px 0 0;
   /*ячейка таблицы*/
 }
 
@@ -323,8 +326,10 @@
 }
 
 .table__cell_theme_dark {
-  margin-top: 80px;
   width: 200px;
+  list-style: none;
+  padding:0;
+  margin:60px 0 0;
   /*ячейка таблицы*/
 }
 
@@ -404,16 +409,17 @@
 
 .footer__column-links {
   display: flex;
-  justify-content: flex-start;
+  flex-direction: column;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
-  text-decoration: none;
-  color: white;
+  list-style: none;
+  padding:0;
+  margin:0;
   /*управление поведением содержимого колонок*/
 }
 
-.footer__img {
+.footer__social-icon {
   margin: auto 0;
   width: 16px;
   height: 16px;
@@ -434,4 +440,11 @@
   /*список ссылок*/
 }
 
+.footer__column-links-ancor {
+  color: white;
+  text-decoration: none;
+}
 
+.b {
+  border: 1px solid red
+}
