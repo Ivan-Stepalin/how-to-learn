@@ -1,0 +1,12 @@
+.feynman__title {
+  display: flex;
+  max-width: 648px;
+  padding: 0;
+  margin: 0 auto 0;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: 700;
+  text-align: center;
+  z-index: 3;
+  /*Блок для заголовка*/
+}
