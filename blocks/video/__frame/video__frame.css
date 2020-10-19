@@ -2,7 +2,6 @@
   margin: 0;
   width: 515px;
   height: 316px;
-  border: 1px solid red;
 }
 
 .video__iframe:nth-child(1) {
